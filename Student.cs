@@ -10,7 +10,7 @@
         {
             if ((student.Age < 20 && student.StudentBag.BeerBottles > 5) || (student.Age >= 20 && student.StudentBag.BeerBottles > 10))
             {
-                return "is drunk";
+                return "student is drunk";
             }
             else if ((student.Age < 20 && student.StudentBag.BeerBottles < 3) || (student.Age >= 20 && student.StudentBag.BeerBottles < 5))
             {
@@ -30,7 +30,7 @@
             }
             else if ((student.Age < 20 && student.StudentBag.PizzaPieces < 5) || (student.Age >= 20 && student.StudentBag.PizzaPieces < 4))
             {
-                return "is hungry";
+                return "student is hungry";
             }
             else
             {
